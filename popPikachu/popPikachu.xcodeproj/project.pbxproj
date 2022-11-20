@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1889C7D828DB54A900C81BFA /* popPikachuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889C7D728DB54A900C81BFA /* popPikachuApp.swift */; };
+		1889C7DA28DB54A900C81BFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889C7D928DB54A900C81BFA /* ContentView.swift */; };
+		1889C7DC28DB54AB00C81BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1889C7DB28DB54AB00C81BFA /* Assets.xcassets */; };
+		1889C7DF28DB54AB00C81BFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1889C7DE28DB54AB00C81BFA /* Preview Assets.xcassets */; };
+		1889C7E928DB54AC00C81BFA /* popPikachuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889C7E828DB54AC00C81BFA /* popPikachuTests.swift */; };
+		1889C7F328DB54AC00C81BFA /* popPikachuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889C7F228DB54AC00C81BFA /* popPikachuUITests.swift */; };
+		1889C7F528DB54AC00C81BFA /* popPikachuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889C7F428DB54AC00C81BFA /* popPikachuUITestsLaunchTests.swift */; };
+		1889C80228DC70AC00C81BFA /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1889C80128DC70AB00C81BFA /* pop.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1889C7E528DB54AC00C81BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1889C7CC28DB54A900C81BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1889C7D328DB54A900C81BFA;
+			remoteInfo = popPikachu;
+		};
+		1889C7EF28DB54AC00C81BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1889C7CC28DB54A900C81BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1889C7D328DB54A900C81BFA;
+			remoteInfo = popPikachu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1889C7D428DB54A900C81BFA /* popPikachu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popPikachu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1889C7D728DB54A900C81BFA /* popPikachuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popPikachuApp.swift; sourceTree = "<group>"; };
+		1889C7D928DB54A900C81BFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1889C7DB28DB54AB00C81BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1889C7DE28DB54AB00C81BFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1889C7E428DB54AC00C81BFA /* popPikachuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popPikachuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1889C7E828DB54AC00C81BFA /* popPikachuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popPikachuTests.swift; sourceTree = "<group>"; };
+		1889C7EE28DB54AC00C81BFA /* popPikachuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popPikachuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1889C7F228DB54AC00C81BFA /* popPikachuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popPikachuUITests.swift; sourceTree = "<group>"; };
+		1889C7F428DB54AC00C81BFA /* popPikachuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popPikachuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1889C80128DC70AB00C81BFA /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1889C7D128DB54A900C81BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889C7E128DB54AC00C81BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889C7EB28DB54AC00C81BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1889C7CB28DB54A900C81BFA = {
+			isa = PBXGroup;
+			children = (
+				1889C7D628DB54A900C81BFA /* popPikachu */,
+				1889C7E728DB54AC00C81BFA /* popPikachuTests */,
+				1889C7F128DB54AC00C81BFA /* popPikachuUITests */,
+				1889C7D528DB54A900C81BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1889C7D528DB54A900C81BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1889C7D428DB54A900C81BFA /* popPikachu.app */,
+				1889C7E428DB54AC00C81BFA /* popPikachuTests.xctest */,
+				1889C7EE28DB54AC00C81BFA /* popPikachuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1889C7D628DB54A900C81BFA /* popPikachu */ = {
+			isa = PBXGroup;
+			children = (
+				1889C80128DC70AB00C81BFA /* pop.mp3 */,
+				1889C7D728DB54A900C81BFA /* popPikachuApp.swift */,
+				1889C7D928DB54A900C81BFA /* ContentView.swift */,
+				1889C7DB28DB54AB00C81BFA /* Assets.xcassets */,
+				1889C7DD28DB54AB00C81BFA /* Preview Content */,
+			);
+			path = popPikachu;
+			sourceTree = "<group>";
+		};
+		1889C7DD28DB54AB00C81BFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1889C7DE28DB54AB00C81BFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1889C7E728DB54AC00C81BFA /* popPikachuTests */ = {
+			isa = PBXGroup;
+			children = (
+				1889C7E828DB54AC00C81BFA /* popPikachuTests.swift */,
+			);
+			path = popPikachuTests;
+			sourceTree = "<group>";
+		};
+		1889C7F128DB54AC00C81BFA /* popPikachuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1889C7F228DB54AC00C81BFA /* popPikachuUITests.swift */,
+				1889C7F428DB54AC00C81BFA /* popPikachuUITestsLaunchTests.swift */,
+			);
+			path = popPikachuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1889C7D328DB54A900C81BFA /* popPikachu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1889C7F828DB54AC00C81BFA /* Build configuration list for PBXNativeTarget "popPikachu" */;
+			buildPhases = (
+				1889C7D028DB54A900C81BFA /* Sources */,
+				1889C7D128DB54A900C81BFA /* Frameworks */,
+				1889C7D228DB54A900C81BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = popPikachu;
+			productName = popPikachu;
+			productReference = 1889C7D428DB54A900C81BFA /* popPikachu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1889C7E328DB54AC00C81BFA /* popPikachuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1889C7FB28DB54AC00C81BFA /* Build configuration list for PBXNativeTarget "popPikachuTests" */;
+			buildPhases = (
+				1889C7E028DB54AC00C81BFA /* Sources */,
+				1889C7E128DB54AC00C81BFA /* Frameworks */,
+				1889C7E228DB54AC00C81BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1889C7E628DB54AC00C81BFA /* PBXTargetDependency */,
+			);
+			name = popPikachuTests;
+			productName = popPikachuTests;
+			productReference = 1889C7E428DB54AC00C81BFA /* popPikachuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1889C7ED28DB54AC00C81BFA /* popPikachuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1889C7FE28DB54AC00C81BFA /* Build configuration list for PBXNativeTarget "popPikachuUITests" */;
+			buildPhases = (
+				1889C7EA28DB54AC00C81BFA /* Sources */,
+				1889C7EB28DB54AC00C81BFA /* Frameworks */,
+				1889C7EC28DB54AC00C81BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1889C7F028DB54AC00C81BFA /* PBXTargetDependency */,
+			);
+			name = popPikachuUITests;
+			productName = popPikachuUITests;
+			productReference = 1889C7EE28DB54AC00C81BFA /* popPikachuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1889C7CC28DB54A900C81BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1889C7D328DB54A900C81BFA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1889C7E328DB54AC00C81BFA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1889C7D328DB54A900C81BFA;
+					};
+					1889C7ED28DB54AC00C81BFA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1889C7D328DB54A900C81BFA;
+					};
+				};
+			};
+			buildConfigurationList = 1889C7CF28DB54A900C81BFA /* Build configuration list for PBXProject "popPikachu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1889C7CB28DB54A900C81BFA;
+			productRefGroup = 1889C7D528DB54A900C81BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1889C7D328DB54A900C81BFA /* popPikachu */,
+				1889C7E328DB54AC00C81BFA /* popPikachuTests */,
+				1889C7ED28DB54AC00C81BFA /* popPikachuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1889C7D228DB54A900C81BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1889C80228DC70AC00C81BFA /* pop.mp3 in Resources */,
+				1889C7DF28DB54AB00C81BFA /* Preview Assets.xcassets in Resources */,
+				1889C7DC28DB54AB00C81BFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889C7E228DB54AC00C81BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889C7EC28DB54AC00C81BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1889C7D028DB54A900C81BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1889C7DA28DB54A900C81BFA /* ContentView.swift in Sources */,
+				1889C7D828DB54A900C81BFA /* popPikachuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889C7E028DB54AC00C81BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1889C7E928DB54AC00C81BFA /* popPikachuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889C7EA28DB54AC00C81BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1889C7F528DB54AC00C81BFA /* popPikachuUITestsLaunchTests.swift in Sources */,
+				1889C7F328DB54AC00C81BFA /* popPikachuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1889C7E628DB54AC00C81BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1889C7D328DB54A900C81BFA /* popPikachu */;
+			targetProxy = 1889C7E528DB54AC00C81BFA /* PBXContainerItemProxy */;
+		};
+		1889C7F028DB54AC00C81BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1889C7D328DB54A900C81BFA /* popPikachu */;
+			targetProxy = 1889C7EF28DB54AC00C81BFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1889C7F628DB54AC00C81BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1889C7F728DB54AC00C81BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1889C7F928DB54AC00C81BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"popPikachu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindcloud.popPikachu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1889C7FA28DB54AC00C81BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"popPikachu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindcloud.popPikachu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1889C7FC28DB54AC00C81BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindcloud.popPikachuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popPikachu.app/popPikachu";
+			};
+			name = Debug;
+		};
+		1889C7FD28DB54AC00C81BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindcloud.popPikachuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popPikachu.app/popPikachu";
+			};
+			name = Release;
+		};
+		1889C7FF28DB54AC00C81BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindcloud.popPikachuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = popPikachu;
+			};
+			name = Debug;
+		};
+		1889C80028DB54AC00C81BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindcloud.popPikachuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = popPikachu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1889C7CF28DB54A900C81BFA /* Build configuration list for PBXProject "popPikachu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889C7F628DB54AC00C81BFA /* Debug */,
+				1889C7F728DB54AC00C81BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1889C7F828DB54AC00C81BFA /* Build configuration list for PBXNativeTarget "popPikachu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889C7F928DB54AC00C81BFA /* Debug */,
+				1889C7FA28DB54AC00C81BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1889C7FB28DB54AC00C81BFA /* Build configuration list for PBXNativeTarget "popPikachuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889C7FC28DB54AC00C81BFA /* Debug */,
+				1889C7FD28DB54AC00C81BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1889C7FE28DB54AC00C81BFA /* Build configuration list for PBXNativeTarget "popPikachuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889C7FF28DB54AC00C81BFA /* Debug */,
+				1889C80028DB54AC00C81BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1889C7CC28DB54A900C81BFA /* Project object */;
+}
